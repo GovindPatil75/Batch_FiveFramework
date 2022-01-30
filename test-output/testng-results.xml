@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-30T21:34:00 IST" name="Suite" finished-at="2022-01-30T21:34:06 IST" duration-ms="5617">
+    <groups>
+      <group name="Sanity">
+        <method signature="Test_Login.Verify_LoginTestTc_001()[pri:0, instance:com.Test.Test_Login@4f2b503c]" name="Verify_LoginTestTc_001" class="com.Test.Test_Login"/>
+      </group> <!-- Sanity -->
+    </groups>
+    <test started-at="2022-01-30T21:34:00 IST" name="Test" finished-at="2022-01-30T21:34:06 IST" duration-ms="5617">
+      <class name="com.Test.Test_Login">
+        <test-method is-config="true" signature="BS()[pri:0, instance:com.Test.Test_Login@4f2b503c]" started-at="2022-01-30T21:34:00 IST" name="BS" finished-at="2022-01-30T21:34:00 IST" duration-ms="622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BS -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:com.Test.Test_Login@4f2b503c]" started-at="2022-01-30T21:34:01 IST" name="LaunchBrowser" finished-at="2022-01-30T21:34:05 IST" duration-ms="4168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="Verify_LoginTestTc_001()[pri:0, instance:com.Test.Test_Login@4f2b503c]" started-at="2022-01-30T21:34:05 IST" name="Verify_LoginTestTc_001" finished-at="2022-01-30T21:34:05 IST" duration-ms="754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_LoginTestTc_001 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.Test.Test_Login@4f2b503c]" started-at="2022-01-30T21:34:05 IST" name="closeBrowser" finished-at="2022-01-30T21:34:06 IST" duration-ms="668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.Test.Test_Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
